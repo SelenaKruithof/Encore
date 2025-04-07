@@ -12,7 +12,7 @@ body {
 /* Changing the background colour for the header */
 
 header {
-	background-color: #000060;
+	background-color: #000000;
 }
 
 /* Changing the background color for the navigation bar */
@@ -41,16 +41,4 @@ footer a:hover {
 		.02em .02em .02em white,
 		0 0 .2em white,
 		0 0 .5em white;
-}
-.banner-main {
-    position: absolute;
-    bottom: 0px;
-    z-index: -1px;
-    right: 0px;
-}
-@media(min-aspect-ratio:16/9){
-    .banner-main{
-        width: 100%;
-        height: 400;
-    }
 }
