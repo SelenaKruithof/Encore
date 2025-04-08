@@ -2,6 +2,9 @@
 /*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
  @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
  @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+ @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
 /*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
  2) font-family: 'Poppins', sans-serif;
  ----------------------------------------*****/
@@ -412,7 +415,7 @@
 }
 /*-- end header middle --*/
  .top-bar-info {
-     background: #111111;
+     background: #000000;
      padding: 5px 0px;
 }
  .top-menu-left {
@@ -876,13 +879,11 @@
      position: relative;
      border-bottom: solid #eee 1px;
 }
- .main-menu ul>li .sub-down li a::before {
-}
+
  .main-menu ul>li .sub-down li a:hover {
      color: #111111;
 }
- .main-menu ul>li .sub-down li a:hover::before {
-}
+
  .main-menu ul li:first-child {
      margin-left: 0;
 }
@@ -936,9 +937,7 @@
      display: inline-block;
      vertical-align: middle;
 }
- .main-menu ul>li:nth-child (6) {
-     padding-right: 0px;
-}
+
  .nav>li {
      position: inherit;
      display: inline-block;
@@ -951,8 +950,6 @@
      margin: 0 auto;
      right: 0;
      padding: 15px 0px;
-}
- .sub-full {
 }
  .simple-down {
      padding: 15px;
@@ -992,7 +989,7 @@
  .women-box::before {
      content: "";
      position: absolute;
-     background: rgba(0, 0, 0, 0.3);
+     background: rgba(0, 0, 0, 0);
      width: 100%;
      height: 100%;
 }
@@ -1038,7 +1035,7 @@
      padding-bottom: 20px;
 }
  .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
-     background: #111111;
+     background: #000000;
      color: #ffffff !important;
      display: inline-block;
      padding: 10px 16px;
@@ -1063,7 +1060,7 @@
      transform: perspective(1px) translateZ(0);
      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
      position: relative;
-     background: #111111;
+     background: #000000;
      -webkit-transition-property: color;
      transition-property: color;
      -webkit-transition-duration: 0.3s;
@@ -1173,7 +1170,7 @@
  .top-banner-slider .heroslider .slides li::before {
      content: "";
      position: absolute;
-     background: rgba(0, 0, 0, 0.4);
+     background: rgba(0, 0, 0, 0);
      height: 100%;
      width: 100%;
      left: 0px;
@@ -1213,7 +1210,7 @@
      max-width: 720px;
      width: 100%;
      text-transform: uppercase;
-     color: #333;
+     color: #000000;
 }
  .top-banner-slider .flex_caption1 .title1 {
      font-size: 36px;
@@ -1236,7 +1233,7 @@
      display: table;
      width: 177px;
      height: 177px;
-     background-color: #242424;
+     background-color: #000000;
 }
  .top-banner-slider .flex_caption2 .middle {
      display: table-cell;
@@ -1294,7 +1291,7 @@
      border: 2px solid #ffffff;
 }
  .flex-direction-nav a {
-     background: #111111;
+     background: #000000;
      text-align: center;
 }
  .heroslider:hover .flex-direction-nav .flex-prev:hover {
@@ -1359,10 +1356,10 @@
 }
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
  .header {
-     background: #070100;
+     background: #000000;
      padding: 23px 0px;
-     border-top: #cf2323 solid 5px;
-     border-bottom: #cf2323 solid 5px;
+     border-top: #eb2727 solid 5px;
+     border-bottom: #eb2727 solid 5px;
 }
  .logo a {
      font-size: 40px;
@@ -1447,7 +1444,7 @@
 /** music-box **/
  .music-box {
      padding: 90px 0px;
-     background: #fff;
+     background: #f0e7d7;
 }
  .music-box .for-box {
      padding: 0px 20px;
@@ -1525,7 +1522,7 @@
 /** Lastestnews **/
  .Lastestnews {
      padding:90px 0px;
-     background: #fff;
+     background: #f0e7d7;
 }
  .Lastestnews .titlepage {
      text-align: center;
@@ -1642,14 +1639,7 @@
  .page-top {
      margin-top: 85px;
 }
- img.zoom {
-     width: 100%;
-     object-fit: cover;
-     -webkit-transition: all .3s ease-in-out;
-     -moz-transition: all .3s ease-in-out;
-     -o-transition: all .3s ease-in-out;
-     -ms-transition: all .3s ease-in-out;
-}
+
  .transition {
      -webkit-transform: scale(1.2);
      -moz-transform: scale(1.2);
@@ -1875,7 +1865,7 @@
      text-align: center;
 }
  .blogbg {
-     background-color: #ff1d00;
+     background-color: #d2a172;
 }
  .blogbg .blogtitlepage h2 {
      color: #fff;
