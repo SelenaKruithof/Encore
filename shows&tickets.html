@@ -29,6 +29,69 @@
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      .columns {
+        float: left;
+        width: 33.3%;
+        padding: 8px;
+      }
+      
+      .price {
+        list-style-type: none;
+        border: 1px solid #eee;
+        margin: 0;
+        padding: 0;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+      }
+      
+      .price:hover {
+        box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+      }
+      
+      .price .header {
+        background-color: #111;
+        color: white;
+        font-size: 25px;
+      }
+      
+      .price li {
+        border-bottom: 1px solid #eee;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .price .grey {
+        background-color: #eee;
+        font-size: 20px;
+      }
+      
+      .button {
+        background-color: #04AA6D;
+        border: none;
+        color: white;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+      }
+      
+      @media only screen and (max-width: 600px) {
+        .columns {
+          width: 100%;
+        }
+      } 
+
+.columns {
+        float: left;
+        width: 33.3%;
+        padding:8px;
+      }
+    </style>
 </head>
 <!-- body -->
 
@@ -80,7 +143,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="Albumstitlepage">
-                        <h2>Albums</h2>
+                        <h2>Shows&Tickets </h2>
                     </div>
                 </div>
             </div>
@@ -89,6 +152,45 @@
     </div>
 
     <!-- Albums -->
+
+    <h2 style="text-align:center">Responsive Pricing Tables</h2>
+    <p style="text-align:center">Resize the browser window to see the effect.</p>
+    
+    <div class="columns">
+      <ul class="price">
+        <li class="header">Basic</li>
+        <li class="grey">$ 9.99 / year</li>
+        <li>10GB Storage</li>
+        <li>10 Emails</li>
+        <li>10 Domains</li>
+        <li>1GB Bandwidth</li>
+        <li class="grey"><a href="#" class="button">Sign Up</a></li>
+      </ul>
+    </div>
+    
+    <div class="columns">
+      <ul class="price">
+        <li class="header" style="background-color:#04AA6D">Pro</li>
+        <li class="grey">$ 24.99 / year</li>
+        <li>25GB Storage</li>
+        <li>25 Emails</li>
+        <li>25 Domains</li>
+        <li>2GB Bandwidth</li>
+        <li class="grey"><a href="#" class="button">Sign Up</a></li>
+      </ul>
+    </div>
+    
+    <div class="columns">
+      <ul class="price">
+        <li class="header">Premium</li>
+        <li class="grey">$ 49.99 / year</li>
+        <li>50GB Storage</li>
+        <li>50 Emails</li>
+        <li>50 Domains</li>
+        <li>5GB Bandwidth</li>
+        <li class="grey"><a href="#" class="button">Sign Up</a></li>
+      </ul>
+    </div>
     <div class="Albums">
         <div class="container">
             <div class="row">
@@ -99,15 +201,46 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="grid-container">
+            <div class="columns">
+                <img src="images/picture-of-stage.jpg" alt="Denim Jeans" style="width:100%">
+                <h1>Frozen</h1>
+                <p class="price">$19.99</p>
+                <p style="color: rgb(0, 0, 0);">This theatre play is awesome</p>
+                <p><button>Add to Cart</button></p>
+              </div>
+            </div>
+             
+            <div class="grid-container">
+                <div class="columns">
+                    <img src="images/theatreboy.png" alt="Denim Jeans" style="width:100%">
+                    <h1>Tailored Jeans</h1>
+                    <p class="price">$5,99</p>
+                    <p>Some text about the jeans..</p>
+                    <p><button>Add to Cart</button></p>
+                  </div>
+                </div>
+                
+                <div class="grid-container">
+                    <div class="columns">
+                        <img src="images/theatregirl.png" alt="Denim Jeans" style="width:100%">
+                        <h1>Tailored Jeans</h1>
+                        <p class="price">$19.99</p>
+                        <p>Some text about the jeans..</p>
+                        <p><button>Add to Cart</button></p>
+                      </div>
+                    </div>
+
+                         <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 margin">
                     <div class="Albums-box">
                         <figure>
-                            <a href="images/album1.jpg" class="fancybox" rel="ligthbox">
-                                <img src="images/album1.jpg" class="zoom img-fluid " alt="">
+                            <a href="images/album2.jpg" class="fancybox" rel="ligthbox">
+                                <img src="images/classical-theater.jpg" class="zoom img-fluid " alt="">
                             </a>
                             <span class="hoverle">
                         <a href="images/album1.jpg" class="fancybox" rel="ligthbox"><img src="images/search.png"></a>
+                        <p>Classical Theatre.</p>
                         </span>
                         </figure>
                     </div>
@@ -116,10 +249,11 @@
                     <div class="Albums-box">
                         <figure>
                             <a href="images/album2.jpg" class="fancybox" rel="ligthbox ">
-                                <img src="images/album2.jpg" class="zoom img-fluid " alt="">
+                                <img src="images/woman.jpg" class="zoom img-fluid " alt="">
                             </a>
                             <span class="hoverle">
                         <a href="images/album2.jpg" class="fancybox" rel="ligthbox"><img src="images/search.png"></a>
+                        <p>Modern Theatre</p>
                         </span>
                         </figure>
                     </div>
@@ -128,34 +262,11 @@
                     <div class="Albums-box">
                         <figure>
                             <a href="images/album2.jpg" class="fancybox" rel="ligthbox">
-                                <img src="images/album2.jpg" class="zoom img-fluid " alt="">
+                                <img src="images/Global-Traditional-Theatre.jpg" class="zoom img-fluid " alt="">
                             </a>
                             <span class="hoverle">
                         <a href="images/album2.jpg" class="fancybox" rel="ligthbox"><img src="images/search.png"></a>
-                        </span>
-                        </figure>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 margin">
-                    <div class="Albums-box">
-                        <figure>
-                            <a href="images/album1.jpg" class="fancybox" rel="ligthbox ">
-                                <img src="images/album1.jpg" class="zoom img-fluid " alt="">
-                            </a>
-                            <span class="hoverle">
-                        <a href="images/album1.jpg" class="fancybox" rel="ligthbox"><img src="images/search.png"></a>
-                        </span>
-                        </figure>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 margin">
-                    <div class="Albums-box">
-                        <figure>
-                            <a href="images/album1.jpg" class="fancybox" rel="ligthbox">
-                                <img src="images/album1.jpg" class="zoom img-fluid " alt="">
-                            </a>
-                            <span class="hoverle">
-                        <a href="images/album1.jpg" class="fancybox" rel="ligthbox"><img src="images/search.png"></a>
+                        <p>Global and Traditional Theatre Theater</p>
                         </span>
                         </figure>
                     </div>
@@ -164,15 +275,14 @@
                     <div class="Albums-box">
                         <figure>
                             <a href="images/album2.jpg" class="fancybox" rel="ligthbox ">
-                                <img src="images/album2.jpg" class="zoom img-fluid " alt="">
+                                <img src="images/Renaissance-theatre.jpg" class="zoom img-fluid " alt="">
                             </a>
                             <span class="hoverle">
-                        <a href="images/album2.jpg" class="fancybox" rel="ligthbox"><img src="images/search.png"></a>
+                        <a href="images/album1.jpg" class="fancybox" rel="ligthbox"><img src="images/search.png"></a>
+                        <p>Renaissance Theatre</p>
                         </span>
                         </figure>
                     </div>
-                </div>
-
             </div>
         </div>
     </div>
