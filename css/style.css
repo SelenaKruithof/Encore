@@ -1947,7 +1947,7 @@ body {font-family: Verdana, sans-serif;}
   transition: 0.4s;
 }
 
-.active, .accordion:hover {
+.accordion:hover {
   background-color: #ccc;
 }
 
@@ -1959,19 +1959,21 @@ body {font-family: Verdana, sans-serif;}
   margin-left: 5px;
 }
 
-.active:after {
+.after {
   content: "\2212";
 }
 
 .panel {
   padding: 0 18px;
-  background-color: white;
+  background-color: #eee;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  color: #444
 }
 
 .middleac {
     max-width: 600px;
     margin: 0 auto;
   }
+
