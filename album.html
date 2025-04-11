@@ -9,11 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>[Encore.]</title>
+    <title>Rock</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- bootstrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- style css -->
@@ -33,13 +32,12 @@
 </head>
 <!-- body -->
 
-<body class="main-layout">
-    <style>
-        body {
-            background-color: #3e0d0d;
-        }
-        
-    </style>
+<body class="main-layout album-page">
+    <!-- loader  -->
+    <div class="loader_bg">
+        <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+    </div>
+    <!-- end loader -->
     <!-- header -->
     <header>
         <!-- header inner -->
@@ -50,7 +48,7 @@
                         <div class="full">
                             <div class="center-desk">
                                 <div class="logo">
-                                    <a href="index.html"><img src="images/[Encore.].jpg" alt="logo" /></a>
+                                    <a href="index.html"><img src="images/logo.jpg" alt="logo" /></a>
                                 </div>
                             </div>
                         </div>
@@ -60,12 +58,12 @@
                             <div class="limit-box">
                                 <nav class="main-menu">
                                     <ul class="menu-area-main">
-                                        <li class="active"> <a href="index.html">home</a> </li>
+                                        <li> <a href="index.html">Home</a> </li>
                                         <li> <a href="about.html">about</a> </li>
-                                        <li> <a href="shows&tickets.html"> shows & tickets</a> </li>
-                                        <li> <a href="corporate.html">corporate</a> </li>
-                                        <li> <a href="faq.html">FAQ</a> </li>
-                        
+                                        <li class="active"> <a href="album.html"> Albums</a> </li>
+                                        <li> <a href="blog.html">Blog</a> </li>
+                                        <li> <a href="contact.html">Contact</a> </li>
+                                        <li> <a href="#contact">Login</a> </li>
                                     </ul>
                                 </nav>
                             </div>
@@ -77,133 +75,117 @@
                             <button><img src="images/search_icon.png"></button>
                         </form>
                     </div>
-                    
                 </div>
             </div>
             <!-- end header inner -->
     </header>
-
-    
     <!-- end header -->
-    <section class="banner_section">
-        <div class="banner-main">
-            <video autoplay loop muted plays-inline class="banner-main">
-                <source src="videos/homepagevideo.mp4" type="video/mp4">
-            </video>
-                
-            </video>
-            <div class="container">
 
-                <div class="text-bg relative">
-                    <i><img src="images/encorelogomark.png" alt="icon"/></i>
-                    <a href="about.html">About Us</a>
+    <div class="Albumsbg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="Albumstitlepage">
+                        <h2>Albums</h2>
+                    </div>
                 </div>
-
             </div>
         </div>
-        
-    </section>
-    <div id="screenshot" class="Lastestnews">
+
+    </div>
+
+    <!-- Albums -->
+    <div class="Albums">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="titlepage">
-                        <h2>Small Stages. Big Stories. <br> All in one place.</h2>
-                        <span>Encore is all about giving every show, big or small, the chance to be seen and appreciated. <br>  We believe awesome theatre can come from anywhere, and it should be available to everyone. <br> By making it easier to access, staying transparent, and done with a lot of passion. <br> Encore brings fresh stories to life for anyone who wants to experience them.</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 padding">
-                <div class="img-box">
-                    <figure><img src="images/producerbts.png" alt="img" /></figure>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 padding">
-                <div class="text-box">
-                    <div class="box">
-                        <i><img src="icon/theatremaskicon.png"/></i>
-                        <h3>MEET OUR PRODUCTIONS</h3>
-                        <p>Small Stages. Big Stories. All in one place.
-                            <br> These producers are making waves with shows you won’t forget </p>
-                        <a href="#">Read More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Download -->
-    <div id="screenshot" class="Lastestnews">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="titlepage">
-                        <h2>Latest Theatre News</h2>
-                        <span>This news section highlights recent, fictional developments in the world of theatre to entertain <br> and spark interest in current trends and stories on stage.</span>
+                        <span>It is a long established fact that a reader will be distracted by the readable <br>content of a page when looking at its layout. The point of using Lorem </span>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                    <div class="news-box">
-                        <figure><img src="images/theatreboy.png" alt="img" /></figure>
-                        <h3>Cyberpunk Hamlets</h3>
-                        <span> April 19th</span><span> (3) Comments</span>
-                        <p>Director Lila Hartman is shaking up Broadway with a cyberpunk adaptation of Hamlets, set in a neon lit dystopia where AI and holograms bring Shakespeare’s tragedy into the future. The lead role, played by... </p>
-                        <button class="submit-btn">Read more</button>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 margin">
+                    <div class="Albums-box">
+                        <figure>
+                            <a href="images/album1.jpg" class="fancybox" rel="ligthbox">
+                                <img src="images/album1.jpg" class="zoom img-fluid " alt="">
+                            </a>
+                            <span class="hoverle">
+                        <a href="images/album1.jpg" class="fancybox" rel="ligthbox"><img src="images/search.png"></a>
+                        </span>
+                        </figure>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                    <div class="news-box">
-                        <figure><img src="images/theatregirl.png" alt="img" /></figure>
-                        <h3>Teen Takes Spotlight</h3>
-                        <span> April 19th </span><span> (8) Comments</span>
-                        <p>During a performance of Les Misérables in Denver, understudy Maya Castillo stepped into the lead role after an illness sidelined the main actress. At just sixteen, Castillo stunned the audience with her... </p>
-                        <button class="submit-btn">Read more</button>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 margin">
+                    <div class="Albums-box">
+                        <figure>
+                            <a href="images/album2.jpg" class="fancybox" rel="ligthbox ">
+                                <img src="images/album2.jpg" class="zoom img-fluid " alt="">
+                            </a>
+                            <span class="hoverle">
+                        <a href="images/album2.jpg" class="fancybox" rel="ligthbox"><img src="images/search.png"></a>
+                        </span>
+                        </figure>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                    <div class="news-box">
-                        <figure><img src="images/theatregirlsocial.png" alt="img" /></figure>
-                        <h3>Social Media Shakespeare</h3>
-                        <span> April 20th</span><span> (4) Comments</span>
-                        <p>A TikTok theatre collective called @BardBabes is bringing Shakespeare to Gen Z in bite sized, viral form. Their stylized 60 second videos of famous monologues have racked up millions of views, mixing...</p>
-                        <button class="submit-btn">Read more</button>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 margin">
+                    <div class="Albums-box">
+                        <figure>
+                            <a href="images/album2.jpg" class="fancybox" rel="ligthbox">
+                                <img src="images/album2.jpg" class="zoom img-fluid " alt="">
+                            </a>
+                            <span class="hoverle">
+                        <a href="images/album2.jpg" class="fancybox" rel="ligthbox"><img src="images/search.png"></a>
+                        </span>
+                        </figure>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!-- end Download -->
-    <!-- Newsletter -->
-    <div class="Newsletter">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 margin">
+                    <div class="Albums-box">
+                        <figure>
+                            <a href="images/album1.jpg" class="fancybox" rel="ligthbox ">
+                                <img src="images/album1.jpg" class="zoom img-fluid " alt="">
+                            </a>
+                            <span class="hoverle">
+                        <a href="images/album1.jpg" class="fancybox" rel="ligthbox"><img src="images/search.png"></a>
+                        </span>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 margin">
+                    <div class="Albums-box">
+                        <figure>
+                            <a href="images/album1.jpg" class="fancybox" rel="ligthbox">
+                                <img src="images/album1.jpg" class="zoom img-fluid " alt="">
+                            </a>
+                            <span class="hoverle">
+                        <a href="images/album1.jpg" class="fancybox" rel="ligthbox"><img src="images/search.png"></a>
+                        </span>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 margin">
+                    <div class="Albums-box">
+                        <figure>
+                            <a href="images/album2.jpg" class="fancybox" rel="ligthbox ">
+                                <img src="images/album2.jpg" class="zoom img-fluid " alt="">
+                            </a>
+                            <span class="hoverle">
+                        <a href="images/album2.jpg" class="fancybox" rel="ligthbox"><img src="images/search.png"></a>
+                        </span>
+                        </figure>
+                    </div>
+                </div>
 
-                    <h2>For personalised newsletter subscribe here:</h2>
-                    <div class="row">
-                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 padding-right">
-                            <input class="email" placeholder="Enter Your Email" type="text" name="Enter Your Email">
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 padding-left">
-                            <button class="submit-btn">Subscribe</button>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
-   
-    <!-- end Newsletter -->
+    <!-- end Albums -->
 
     <!--  footer -->
-    <footr id="footer_with_contact">
+    <footr>
         <div class="footer">
             <div class="container">
                 <div class="row">
@@ -211,14 +193,16 @@
                         <div class="address">
                             <h3>Contact Us</h3>
                             <ul class="locarion_icon">
-                                <li><img src="icon/1.png" alt="icon" />Hopmansstraat 2, 4817 Breda</li>
-                                <li><img src="icon/2.png" alt="icon" />Phone : (+31) 612345678 </li>
-                                <li><img src="icon/3.png" alt="icon" />Email : ask@encore.com</li>
+                                <li><img src="icon/1.png" alt="icon" />104 New York , USA</li>
+                                <li><img src="icon/2.png" alt="icon" />Phone : ( +71 5896547 )</li>
+                                <li><img src="icon/3.png" alt="icon" />Email : demo@email.com</li>
 
                             </ul>
 
                             <ul class="contant_icon">
-                                <li><img src="icon/tiktok.png" alt="icon" /></li>
+                                <li><img src="icon/fb.png" alt="icon" /></li>
+                                <li><img src="icon/tw.png" alt="icon" /></li>
+                                <li><img src="icon/lin(2).png" alt="icon" /></li>
                                 <li><img src="icon/instagram.png" alt="icon" /></li>
                             </ul>
                         </div>
@@ -249,19 +233,19 @@
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 width">
                         <div class="address">
-                            <h3>Upcoming shows:</h3>
+                            <h3>New Music </h3>
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 ">
-                                    <figure><img src="images/play1.png" /></figure>
+                                    <figure><img src="images/music1.jpg" /></figure>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 ">
-                                    <figure><img src="images/play2.png" /></figure>
+                                    <figure><img src="images/music2.jpg" /></figure>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 ">
-                                    <figure><img src="images/play3.png" /></figure>
+                                    <figure><img src="images/music3.jpg" /></figure>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 ">
-                                    <figure><img src="images/play4.png" /></figure>
+                                    <figure><img src="images/music4.jpg" /></figure>
                                 </div>
                             </div>
 
@@ -270,7 +254,7 @@
                 </div>
             </div>
             <div class="copyright">
-                <p>© 2019 All Rights Reserved. <a href="https://html.design/">Free html Templates adapted and customised by Selena Kruithof (211309) for PRJ4 Brand Development.</a></p>
+                <p>© 2019 All Rights Reserved. <a href="https://html.design/">Free html Templates</a></p>
             </div>
         </div>
     </footr>
