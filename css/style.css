@@ -98,7 +98,7 @@
      line-height: 24px;
 }
  a {
-     color: #222222;
+     color: #ffffff;
      text-decoration: none;
      outline: none !important;
 }
@@ -360,12 +360,12 @@
      margin-left: 0;
 }
  .menu-area-main li:hover a, .menu-area-main li:focus a {
-     color: #fff;
+     color: #eb2727;
 }
  .menu-area-main li.active a {
      color: #fff;
      background: #000;
-     box-shadow: #9d9d9d66 0px 0px 56px 26px;
+     box-shadow: transparent
 }
  .right_cart_section {
      float: right;
@@ -860,7 +860,7 @@
      font-size: 16px;
      display: block;
      font-weight: 500;
-     color: #555454;
+     color: #fff;
      text-transform: uppercase;
      margin: 0px 15px;
 }
@@ -1444,7 +1444,7 @@
 /** music-box **/
  .music-box {
      padding: 90px 0px;
-     background: #f0e7d7;
+     background: #eaeaea;
 }
  .music-box .for-box {
      padding: 0px 20px;
@@ -1522,7 +1522,7 @@
 /** Lastestnews **/
  .Lastestnews {
      padding:90px 0px;
-     background: #3e0d0d;
+     background: #eaeaea;
 }
  .Lastestnews .titlepage {
      text-align: center;
@@ -1542,7 +1542,7 @@
 }
  .Lastestnews .news-box {
      background:#fff;
-     box-shadow: #ddd 0px 0px 8px 4px;
+     box-shadow: #5c3c29 0px 0px 8px 4px;
 }
  .Lastestnews .news-box figure {
      margin: 0;
@@ -1915,7 +1915,7 @@
 }
 * {box-sizing: border-box;}
 ul {list-style-type: none;}
-body {font-family: Verdana, sans-serif;}
+body {font-family: 'IBM Plex Mono';}
 
 .courier-prime-regular {
     font-family: "Courier Prime", monospace;
@@ -1933,7 +1933,6 @@ body {font-family: Verdana, sans-serif;}
     h4 {
         font-size: 30px;
       }
-<<<<<<< HEAD
       * {
         box-sizing: border-box;
       }
@@ -1998,13 +1997,12 @@ body {font-family: Verdana, sans-serif;}
           width: 100%;
         }
       }
-=======
 
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: #990a0a;
+  color: #fff;
   cursor: pointer;
-  padding: 18px;
+  padding: 30px;
   width: 100%;
   border: none;
   text-align: left;
@@ -2014,12 +2012,12 @@ body {font-family: Verdana, sans-serif;}
 }
 
 .accordion:hover {
-  background-color: #ccc;
+  background-color: #490101;
 }
 
 .accordion:after {
   content: '\002B';
-  color: #777;
+  color: #640404;
   font-weight: bold;
   float: right;
   margin-left: 5px;
@@ -2042,8 +2040,7 @@ body {font-family: Verdana, sans-serif;}
     max-width: 600px;
     margin: 0 auto;
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> ecfcd88cd4628416e9251d887b6c3c1d3233aaf8
->>>>>>> 3adaba8ca8b0002d0e176865650bc5aec90c2c63
+ 
+.general-text {
+      font-family: 'IBM Plex Mono';font-size: 22px;
+  }
