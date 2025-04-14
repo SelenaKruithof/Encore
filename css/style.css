@@ -96,6 +96,7 @@
      font-weight: 300;
      font-size: 15px;
      line-height: 24px;
+     
 }
  a {
      color: #ffffff;
@@ -1570,7 +1571,7 @@
 /** Lastestnews **/
  .Albums {
      margin-bottom: 90px;
-     background: #fff;
+     background: #eaeaea;
 }
  .Albums .titlepage {
      text-align: center;
@@ -1799,18 +1800,18 @@
      height: 32px;
 }
  .copyright {
-     background-color: #fff;
-     padding: 20px 0px;
+     background-color: #eaeaea;
+     padding: 100px 0px;
      margin-top: 90px;
 }
  .copyright p {
-     color: #023023;
+     color: #eb2727;
      font-size: 18px;
      line-height: 22px;
      text-align: center;
 }
  .copyright a:hover {
-     color: #eb2727
+     color: #000
 }
 /*--------------------------------------------------------------------- ener page css ---------------------------------------------------------------------*/
  .about-page .footer {
@@ -1820,9 +1821,9 @@
      background-color: #eb2727;
 }
  .contact-page .send {
-    background: #000;
+    background: #e9d8d8;
      border: #000 solid 1px;
-     color: #fff;
+     color: #000;
      margin: 0 auto;
      display: block;
 }
@@ -1915,7 +1916,10 @@
 }
 * {box-sizing: border-box;}
 ul {list-style-type: none;}
-body {font-family: 'IBM Plex Mono';}
+
+.body {font-family: 'IBM Plex Mono';
+
+}
 
 .courier-prime-regular {
     font-family: "Courier Prime", monospace;
@@ -2044,3 +2048,7 @@ body {font-family: 'IBM Plex Mono';}
 .general-text {
       font-family: 'IBM Plex Mono';font-size: 22px;
   }
+  a {
+    color: #990a0a;
+    text-decoration: underline;
+}

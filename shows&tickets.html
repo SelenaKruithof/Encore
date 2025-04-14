@@ -92,6 +92,10 @@
         width: 33.3%;
         padding:8px;
       }
+      body {
+            background-color: #eaeaea;
+        }
+        
     </style>
 </head>
 <!-- body -->
@@ -145,7 +149,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="Albumstitlepage">
-                        <h2>Shows&Tickets </h2>
+                        <h2>Shows & Tickets </h2>
                     </div>
                 </div>
             </div>
@@ -193,13 +197,14 @@
                 </div>
             </div>
             <div class="grid-container">
+                <li><a align="center" href="tickets.html"><h1><strong>Spotlight&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Drama&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Arvane</strong></h1></a> </li>
                 <div class="columns" style="position: relative;">
                     <img src="images/picture-of-stage.jpg" alt="Denim Jeans" style="width:100%">
                     <!-- Add the text banner with absolute positioning -->
                     <div style="position: absolute; top: 10px; right: 10px; background-color: red; color: white; padding: 5px 10px; font-weight: bold; font-size: 16px;">
                         ONLY 4 TICKETS LEFT
                     </div>
-                    <h1>Spotlight</h1>
+                    
                     <p><button>"Spotlight" is a gripping theatre play that delves into the power of truth, following a team of journalists as they uncover hidden injustices within a powerful institution.</button></p>
                 </div>
             </div>
@@ -211,7 +216,7 @@
                     <div style="position: absolute; top: 10px; right: 10px; background-color: red; color: white; padding: 5px 10px; font-weight: bold; font-size: 16px;">
                         ONLY 2 TICKETS LEFT
                     </div>
-                    <h1>Disco Drama</h1>
+                
                     <p><button>"Disco Drama" is a vibrant, high-energy theatre play that blends 70s disco flair with intense personal stories of ambition, love, and rivalry on the dance floor.</button></p>
                 </div>
             </div>
@@ -223,7 +228,7 @@
                     <div style="position: absolute; top: 10px; right: 10px; background-color: red; color: white; padding: 5px 10px; font-weight: bold; font-size: 16px;">
                         ONLY 1 TICKET LEFT
                     </div>
-                    <h1>Arvane</h1>
+                
                     <p><button>"Arvane" is a heartfelt romance that follows two souls from different worlds as they navigate love, sacrifice, and destiny in a timeless story of connection.</button></p>
                     <p>ONLY 2 TICKETS LEFT</p> 
                     <!-- Optional, to display below the description if you like -->
@@ -284,151 +289,81 @@
     <!-- end Albums -->
 
     <!--  footer -->
-   <Br>
-    <br>
+   <br>
+   <br>
+    <footr id="footer_with_contact">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 width">
+                        <div class="address">
+                            <h3>Contact Us</h3>
+                            <ul class="locarion_icon">
+                                <li><img src="icon/1.png" alt="icon" />Hopmansstraat 2, 4817 Breda</li>
+                                <li><img src="icon/2.png" alt="icon" />Phone : (+31) 612345678 </li>
+                                <li><img src="icon/3.png" alt="icon" />Email : ask@encore.com</li>
 
-<!-- Red Header Stripe -->
-<div style="height: 300px; background-color: red; margin: 40px 0;"></div>
-    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                            </ul>
 
-        <!-- First Ticket Block (Spotlight) -->
-        <div style="width: 350px; border: 2px solid #000; padding: 20px; border-radius: 10px; font-family: Arial, sans-serif; color: black;">
-            <h1 align="center" style="font-weight: bold;">Buy Tickets for "Spotlight"</h1>
-            <div align="center">
-                <img src="images/picture-of-stage.jpg" alt="Spotlight Theatre Show" width="300">
-            </div>
-            <h2>Ticket Information</h2>
-            <p><strong>Location:</strong> Grand Theatre Hall</p>
-            <p><strong>Date:</strong> June 15, 2025</p>
-            <p><strong>Time:</strong> 7:00 PM</p>
-            <h2>Choose Your Ticket</h2>
-            <form action="#" method="post">
-                <label for="ticketType">Ticket Type:</label><br>
-                <select id="ticketType" name="ticketType">
-                    <option value="standard">Standard - €9.99</option>
-                    <option value="premium">Premium - €19.99</option>
-                    <option value="backstage">Backstage Pass - €89.99</option>
-                    <option value="backstage">Online Viewing - €3,99</option>
-                </select><br><br>
-                <label for="quantity">Quantity:</label><br>
-                <select id="quantity" name="quantity">
-                    <option value="1">1 Ticket</option>
-                    <option value="2">2 Tickets</option>
-                    <option value="3">3 Tickets</option>
-                    <option value="4">4 Tickets</option>
-                </select><br><br>
-                <label for="name">Full Name:</label><br>
-                <input type="text" id="name" name="name" placeholder="Jane Doe"><br><br>
-                <label for="email">Email Address:</label><br>
-                <input type="email" id="email" name="email" placeholder="example@email.com"><br><br>
-                <input type="submit" value="Proceed to Payment">
-            </form>
-        </div>
-    
-        <!-- Second Ticket Block (Disco Drama) -->
-        <div style="width: 350px; border: 2px solid #000; padding: 20px; border-radius: 10px; font-family: Arial, sans-serif; color: black;">
-            <h1 align="center" style="font-weight: bold;">Buy Tickets for "Disco Drama"</h1>
-            <div align="center">
-                <img src="images/theatreboy.png" alt="Disco Drama" width="300">
-            </div>
-            <h2>Ticket Information</h2>
-            <p><strong>Location:</strong> Grand Theatre Hall</p>
-            <p><strong>Date:</strong> June 15, 2025</p>
-            <p><strong>Time:</strong> 7:00 PM</p>
-            <h2>Choose Your Ticket</h2>
-            <form action="#" method="post">
-                <label for="ticketType">Ticket Type:</label><br>
-                <select id="ticketType" name="ticketType">
-                    <option value="standard">Standard - €9.99</option>
-                    <option value="premium">Premium - €19.99</option>
-                    <option value="backstage">Backstage Pass - €89.99</option>
-                    <option value="backstage">Online Viewing - €3,99</option>
-                </select><br><br>
-                <label for="quantity">Quantity:</label><br>
-                <select id="quantity" name="quantity">
-                    <option value="1">1 Ticket</option>
-                    <option value="2">2 Tickets</option>
-                    <option value="3">3 Tickets</option>
-                    <option value="4">4 Tickets</option>
-                </select><br><br>
-                <label for="name">Full Name:</label><br>
-                <input type="text" id="name" name="name" placeholder="Jane Doe"><br><br>
-                <label for="email">Email Address:</label><br>
-                <input type="email" id="email" name="email" placeholder="example@email.com"><br><br>
-                <input type="submit" value="Proceed to Payment">
-            </form>
-        </div>
-    
-        <!-- Third Ticket Block (Arvane) -->
-        <div style="width: 350px; border: 2px solid #000; padding: 20px; border-radius: 10px; font-family: Arial, sans-serif; color: black;">
-            <h1 align="center" style="font-weight: bold;">Buy Tickets for "Arvane"</h1>
-            <div align="center">
-                <img src="images/theatregirl.png" alt="Arvane Theatre Show" width="300">
-            </div>
-            <h2>Ticket Information</h2>
-            <p><strong>Location:</strong> Grand Theatre Hall</p>
-            <p><strong>Date:</strong> June 15, 2025</p>
-            <p><strong>Time:</strong> 7:00 PM</p>
-            <h2>Choose Your Ticket</h2>
-            <form action="#" method="post">
-                <label for="ticketType">Ticket Type:</label><br>
-                <select id="ticketType" name="ticketType">
-                    <option value="standard">Standard - €9.99</option>
-                    <option value="premium">Premium - €19.99</option>
-                    <option value="backstage">Backstage Pass - €89.99</option>
-                    <option value="backstage">Online Viewing - €3,99</option>
-                </select><br><br>
-                <label for="quantity">Quantity:</label><br>
-                <select id="quantity" name="quantity">
-                    <option value="1">1 Ticket</option>
-                    <option value="2">2 Tickets</option>
-                    <option value="3">3 Tickets</option>
-                    <option value="4">4 Tickets</option>
-                </select><br><br>
-                <label for="name">Full Name:</label><br>
-                <input type="text" id="name" name="name" placeholder="Jane Doe"><br><br>
-                <label for="email">Email Address:</label><br>
-                <input type="email" id="email" name="email" placeholder="example@email.com"><br><br>
-                <input type="submit" value="Proceed to Payment">
-            </form>  
-        </div>
-        <Br>
-        <Br>
-        <Br>
-        <Br>
+                            <ul class="contant_icon">
+                                <li><img src="icon/tiktok.png" alt="icon" /></li>
+                                <li><img src="icon/instagram.png" alt="icon" /></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 width">
+                        <div class="address">
+                            <h3>Get In Touch</h3>
+                            <form>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <input class="contactus" placeholder="Name" type="text" name="Name">
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <input class="contactus" placeholder="Phone" type="text" name="Email">
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <input class="contactus" placeholder="Email" type="text" name="Email">
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <button class="send">Send</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 width">
+                        <div class="address">
+                            <h3>Upcoming shows:</h3>
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 ">
+                                    <figure><img src="images/play1.png" /></figure>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 ">
+                                    <figure><img src="images/play2.png" /></figure>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 ">
+                                    <figure><img src="images/play3.png" /></figure>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 ">
+                                    <figure><img src="images/play4.png" /></figure>
+                                </div>
+                            </div>
 
-    <div class="container">
-        <div class="columns">
-            <ul class="price">
-                <li class="header">standard</li>
-                <li class="grey" style="color: rgb(0, 0, 0);">€ 19.99 / ticket</li>
-                <li style="color: rgb(0, 0, 0);">Rear Seating</li>
-                <li style="color: rgb(0, 0, 0);">No Extras</li>
-                <li style="color: rgb(0, 0, 0);">1 Drink Voucher</li>
-                <li style="color: rgb(0, 0, 0);">General Entry</li>
-            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2019 All Rights Reserved. <a href="https://html.design/"> Free html Templates adapted and customised by  Selena Kruithof (211309), Viltene Gylyte (234211), Lea Häuser (225581), Shiromenie Kaulesarsing (231443) for PRJ4 Brand Development.</a></p>
+            </div>
         </div>
-        <div class="columns">
-            <ul class="price">
-                <li class="header" style="background-color:#860a0a">VIP</li>
-                <li class="grey" style="color: rgb(0, 0, 0);">€ 49.99 / ticket</li>
-                <li style="color: rgb(0, 0, 0);">Front Row Seating</li>
-                <li style="color: rgb(0, 0, 0);">Souvenir Program</li>
-                <li style="color: rgb(0, 0, 0);">2 Drink Voucher</li>
-                <li style="color: rgb(0, 0, 0);">Exclusive Lounge Acces</li>
-            </ul>
-        </div>
-        <div class="columns">
-            <ul class="price">
-                <li class="header" style="background-color:#440000">Backstage Pass</li>
-                <li class="grey" style="color: rgb(0, 0, 0);">€ 89.99 / ticket</li>
-                <li style="color: rgb(0, 0, 0);">Front Row Seating</li>
-                <li style="color: rgb(0, 0, 0);">Meet the Cast/Backstage Tour</li>
-                <li style="color: rgb(0, 0, 0);">Unlimited drink vouchers
-        </ul>
     </footr>
-    <!-- end footer -->
-    <!-- Javascript files-->
+ <!-- Red Header Stripe -->
+              
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
@@ -456,5 +391,4 @@
         });
     </script>
 </body>
-
 </html>
